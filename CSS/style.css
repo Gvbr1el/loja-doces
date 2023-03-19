@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+header{
+    font-family: 'Climate Crisis', Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #1992E0;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 3px pink;
+}
+
+header::first-letter{
+    color: yellow;
+    font-size: 50px;
+}
+
+#content{
+    width: 30%;
+    background-color: #F0F8FF;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#vitrine{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+#buton-vitrine{
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    padding: 20px;
+    border: white;
+    border-radius: 10px;
+    background-color: pink;
+}
+
+#buton-vitrine:hover{
+    background-color: palevioletred;
+    box-shadow: 3px 3px 3px grey;
+}
+
