@@ -82,6 +82,14 @@ figure{
     margin: 10px 0 0 10px;
 }
 
+#image:hover{
+    width: 46%;
+    height: 310px;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+
+}
+
 #description{
     position: absolute;
     left: 55%;
